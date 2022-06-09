@@ -280,7 +280,8 @@
       beforeUpload     : { type: Function },
       successfulUpload : { type: Function },
       selectRecord     : { type: Function },
-      mode             : { type: String, default: 'minimal' }
+      mode             : { type: String, default: 'minimal' },
+      format           : { type: String, default: 'mp3'},
     },
     data () {
       return {
